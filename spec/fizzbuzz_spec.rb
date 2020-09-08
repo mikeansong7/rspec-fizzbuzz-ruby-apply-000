@@ -1,7 +1,4 @@
-require_relative './spec_helper.rb'
-require_relative '../fizzbuzz.rb'
-# We are missing a 'require_relative' here. Check README.md for instructions and an explanation! 
-
+`require_relative '../fizzbuzz.rb' `
 describe "fizzbuzz" do
   it 'returns "Fizz" when the number is divisible by 3' do
     fizz_3 = fizzbuzz(3)
@@ -25,16 +22,6 @@ describe "fizzbuzz" do
   end
 end
 
-def fizzbuzz 
-  fizzbuzz = "3,5"
-  if fizzbuzz = = "div3"
-  puts "Fizz"
-  elsif fizzbuzz = = "div5"
-  puts "Buzz"
-  elsif fizzbuzz = = "div3 && div5"
-  puts "FizzBuzz"
-else
-  puts "nil"
-end 
+
 
 
